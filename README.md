@@ -10,9 +10,9 @@ This repository contains the initial stage of a student project to build a clone
 | ----- | ----- | ------ |
 | 0. Fork Codebase  | [Initial CodeBase](https://github.com/justinmajetich/AirBnB_clone/) | Forked initially existing code to this Repo as v2 and modify Readme|
 | 1. UnitTests | [/tests](https://github.com/wuhibe/AirBnB_clone_v2/tree/master/tests/) | Add more tests of our own|
-| 2. Console improvements | [console.py](https://github.com/wuhibe/AirBnB_clone_v2/console.py) | Update do_create function to allow creation of objects given parameters|
-| 3. MySQL | [setup_mysql_dev.sql](https://github.com/wuhibe/AirBnB_clone_v2/setup_mysql_dev.sql) | Script that prepares a MySQL server for the project|
-| 4. MySQL setup test | [setup_mysql_test.sql](https://github.com/wuhibe/AirBnB_clone_v2/setup_mysql_test.sql) | Create new test user to check permissions of server|
+| 2. Console improvements | [console.py](https://github.com/wuhibe/AirBnB_clone_v2/blob/master/console.py) | Update do_create function to allow creation of objects given parameters|
+| 3. MySQL | [setup_mysql_dev.sql](https://github.com/wuhibe/AirBnB_clone_v2/blob/master/setup_mysql_dev.sql) | Script that prepares a MySQL server for the project|
+| 4. MySQL setup test | [setup_mysql_test.sql](https://github.com/wuhibe/AirBnB_clone_v2/blob/master/setup_mysql_test.sql) | Create new test user to check permissions of server|
 | 5. Delete Objects | [models/engine/file_storage.py](https://github.com/wuhibe/AirBnB_clone_v2/tree/master/models/engine/file_storage.py) | Add def delete(self, obj=None) to delete objects in __objects |
 | 6. DBStorage | [models/base_model.py](https://github.com/wuhibe/AirBnB_clone_v2/tree/master/models/base_model.py) [models/city.py](https://github.com/wuhibe/AirBnB_clone_v2/tree/master/models/city.py) [models/state.py](https://github.com/wuhibe/AirBnB_clone_v2/tree/master/models/staye.py) [models/db_storage.py](https://github.com/wuhibe/AirBnB_clone_v2/tree/master/models/db_storage.py) [models/__init__.py](https://github.com/wuhibe/AirBnB_clone_v2/tree/master/models/__init__.py) | Change storage and use SQLAlchemy for Cities and States |
 | 7. DBStorage for User | [models/user.py](https://github.com/wuhibe/AirBnB_clone_v2/tree/master/models/user.py) | Change storage and use SQLAlchemy for User |
