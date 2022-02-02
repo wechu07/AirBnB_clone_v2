@@ -13,7 +13,7 @@ app = Flask(__name__)
 def citystates():
     ''' Display page with list of all states and related cities '''
     states = storage.all("State")
-    return render_template("8-cities_by_states.html", states=states)
+    return render_template("9-states.html", states=states)
 
 
 @app.route("/states/<id>", strict_slashes=False)
